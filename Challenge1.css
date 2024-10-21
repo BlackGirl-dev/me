@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+body{
+    background-color: hsl(330, 100%, 98%);
+}
+.section{
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    width:40%;
+    margin: 100px auto;
+    padding: 25px 25px;
+    }
+    img{
+        width:100%;
+        border-radius:5px;
+        }
+        h1{
+            font-family: "Young Serif", serif;
+        }
+    .one{
+        font-family: "Outfit", sans-serif;
+        width:97%;
+        background-color: hsl(330, 100%, 98%);
+        border-radius:10px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 15px;
+    }
+    .one h3 {
+        color: hsl(332, 51%, 32%);
+    }  
+    h2{
+        color: hsl(14, 45%, 36%); 
+        font-family: "Young Serif", serif;
+     
+     }
+     hr{
+         border: none;
+         height: 1px;
+          background-color: hsl(30, 54%, 90%) ;
+     }
+     table{
+     width: 100%; 
+     border-collapse: collapse; 
+     font-family: "Outfit", sans-serif;
+     
+     }
+     b{
+         color: hsl(30, 10%, 34%);
+     }
+
+    tr{
+           border-bottom: 0.5px solid hsl(30, 54%, 90%);
+           font-size: 16px;
+           font-weight: 400;
+           font-family: "Outfit", sans-serif;
+           color:hsl(30, 10%, 34%);
+    }
+    td{
+        padding:10px;
+        padding-left: 17px;
+    }
+    tr:last-child{
+        border-bottom: none;
+    }
+    strong{
+        color: hsl(14, 45%, 36%) ;
+    }
+    ul li::marker{
+    color: hsl(14, 45%, 36%) ;
+    
+    }
+    ol li::marker{
+        color: hsl(14, 45%, 36%) ;
+        font-weight: 800;
+        }
+    li{
+        color:hsl(30, 10%, 34%);
+        font-family: "Outfit", sans-serif;
+        padding: 5px  10px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    p{
+        color: hsl(30, 10%, 34%);
+        font-family: "Outfit", sans-serif;   
+        font-size: 16px;
+        font-weight: 400;
+        padding: 5px ;
+    }
+    @media(max-width:760px){
+            
+    .section{
+        width:fit-content;
+        border-radius:0;
+       margin-top: -8px;
+       padding:0;
+       margin-bottom: 5px;
+       margin-left: -0.5cm;
+       margin-right: -0.5cm;
+       
+       
+    }
+    img{
+        width:100%;
+        border-radius:0;
+        margin-top: -20px;
+        margin-bottom: -5px;
+        margin-left: -0px;
+        padding: 0;
+        
+    }
+    .sec{
+        padding: 5px 0;
+        padding-left: 40px;
+        padding-right: 50px;
+    }
+
+
+}
+        
